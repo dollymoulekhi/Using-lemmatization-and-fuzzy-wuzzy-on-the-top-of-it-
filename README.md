@@ -22,7 +22,7 @@ nltk.download('averaged_perceptron_tagger')
 ```
 
 
-## Using lematization on a column for geeting the original word and then using fuzzy wuzzy for geeting the match according to that word:
+## Using lematization on a column for getting the original word and then using fuzzy wuzzy for geeting the match according to that word:
 
 ```
 def get_suggestion(value, value_list, n):
